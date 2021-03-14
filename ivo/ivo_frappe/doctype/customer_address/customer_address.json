@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "creation": "2021-03-14 14:48:19.730132",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "address_type",
+  "address"
+ ],
+ "fields": [
+  {
+   "fieldname": "address_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Address Type",
+   "options": "Delivery\nBilling\nSales"
+  },
+  {
+   "fieldname": "address",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Address"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-14 15:01:37.322870",
+ "modified_by": "Administrator",
+ "module": "Ivo Frappe",
+ "name": "Customer Address",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
