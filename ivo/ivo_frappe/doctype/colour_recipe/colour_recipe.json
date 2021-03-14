@@ -23,13 +23,13 @@
    "fieldname": "recipe",
    "fieldtype": "Table",
    "label": "Recipe",
-   "options": "Colour recipe pigment",
+   "options": "Colour recipe item",
    "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-14 12:34:11.688533",
+ "modified": "2021-03-14 15:14:12.178468",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Colour recipe",
