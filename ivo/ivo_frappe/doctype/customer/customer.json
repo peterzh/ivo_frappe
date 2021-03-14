@@ -78,8 +78,13 @@
   }
  ],
  "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2021-03-14 18:32:11.844399",
+ "links": [
+  {
+   "link_doctype": "Design",
+   "link_fieldname": "customer"
+  }
+ ],
+ "modified": "2021-03-14 19:55:25.492329",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Customer",

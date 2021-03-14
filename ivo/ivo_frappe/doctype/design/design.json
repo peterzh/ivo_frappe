@@ -2,7 +2,7 @@
  "actions": [],
  "allow_import": 1,
  "allow_rename": 1,
- "autoname": "DES.#####",
+ "autoname": "Prompt",
  "creation": "2021-03-14 19:19:33.156981",
  "description": "Table of designs",
  "doctype": "DocType",
@@ -12,7 +12,9 @@
  "field_order": [
   "design_name",
   "customer",
-  "design_image"
+  "design_image",
+  "number_of_colours",
+  "notes"
  ],
  "fields": [
   {
@@ -25,6 +27,8 @@
   {
    "fieldname": "customer",
    "fieldtype": "Link",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
    "label": "Customer",
    "options": "Customer"
   },
@@ -32,12 +36,24 @@
    "fieldname": "design_image",
    "fieldtype": "Attach Image",
    "label": "Image"
+  },
+  {
+   "fieldname": "number_of_colours",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Number of Colours"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
   }
  ],
  "image_field": "design_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-14 19:22:28.971158",
+ "modified": "2021-03-14 21:40:44.653782",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Design",
