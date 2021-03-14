@@ -1,40 +1,32 @@
 {
  "actions": [],
+ "allow_import": 1,
+ "allow_rename": 1,
+ "autoname": "Prompt",
  "creation": "2021-03-14 14:57:00.268986",
+ "description": "Details for each customer.",
  "doctype": "DocType",
  "document_type": "Document",
  "editable_grid": 1,
  "engine": "InnoDB",
  "field_order": [
-  "customer_name",
+  "full_name",
+  "column_break_2",
   "industry",
-  "type",
+  "charge_vat",
+  "has_credit",
+  "section_break_4",
+  "contacts",
   "addresses",
-  "contacts"
+  "section_break_8",
+  "notes"
  ],
  "fields": [
   {
    "fieldname": "industry",
    "fieldtype": "Select",
-   "in_list_view": 1,
    "label": "Industry",
-   "options": "\nFashion\nDisplay\nFurnishings\nHome Furnishings\nNovelty\nOther\nPromo\nUniform",
-   "reqd": 1
-  },
-  {
-   "fieldname": "customer_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Customer Name",
-   "reqd": 1
-  },
-  {
-   "fieldname": "type",
-   "fieldtype": "Select",
-   "in_list_view": 1,
-   "label": "Customer Type",
-   "options": "Company\nIndividual",
-   "reqd": 1
+   "options": "\nFashion\nDisplay\nFurnishings\nHome Furnishings\nNovelty\nOther\nPromo\nUniform"
   },
   {
    "fieldname": "addresses",
@@ -47,11 +39,47 @@
    "fieldtype": "Table",
    "label": "Contacts",
    "options": "Customer Contact"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "section_break_8",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "label": "Notes"
+  },
+  {
+   "default": "0",
+   "fieldname": "charge_vat",
+   "fieldtype": "Check",
+   "label": "Charge VAT"
+  },
+  {
+   "default": "0",
+   "fieldname": "has_credit",
+   "fieldtype": "Check",
+   "label": "Has Credit"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-14 15:00:28.504964",
+ "modified": "2021-03-14 18:32:11.844399",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Customer",
@@ -70,8 +98,9 @@
    "write": 1
   }
  ],
- "sort_field": "modified",
+ "search_fields": "full_name",
+ "sort_field": "full_name",
  "sort_order": "DESC",
- "title_field": "customer_name",
+ "title_field": "full_name",
  "track_changes": 1
 }

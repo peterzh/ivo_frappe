@@ -9,4 +9,4 @@ from frappe.model.naming import make_autoname
 
 class Customer(Document):
 	def autoname(self):
-		self.name = make_autoname(self.customer_name[0].upper() + ".###")
+		self.name = make_autoname(self.full_name[0].upper() + ".###")
