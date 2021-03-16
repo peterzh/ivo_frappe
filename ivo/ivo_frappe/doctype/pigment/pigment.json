@@ -9,8 +9,7 @@
  "field_order": [
   "full_name",
   "pigment_stock",
-  "value",
-  "total_value"
+  "value"
  ],
  "fields": [
   {
@@ -29,16 +28,11 @@
    "fieldname": "value",
    "fieldtype": "Currency",
    "label": "Value"
-  },
-  {
-   "fieldname": "total_value",
-   "fieldtype": "Read Only",
-   "label": "Total Value"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-07 19:57:10.193197",
+ "modified": "2021-03-16 22:17:11.901474",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Pigment",

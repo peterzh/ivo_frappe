@@ -6,16 +6,10 @@
  "engine": "InnoDB",
  "field_order": [
   "design",
-  "covlourway_name",
+  "colourway_name",
   "colours"
  ],
  "fields": [
-  {
-   "fieldname": "covlourway_name",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "Name"
-  },
   {
    "fieldname": "colours",
    "fieldtype": "Table",
@@ -29,11 +23,18 @@
    "label": "Design",
    "options": "Design",
    "reqd": 1
+  },
+  {
+   "fieldname": "colourway_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Name",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-16 21:24:49.042545",
+ "modified": "2021-03-16 22:46:56.766943",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Colourway",
