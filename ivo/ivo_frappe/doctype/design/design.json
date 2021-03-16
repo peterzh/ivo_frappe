@@ -11,6 +11,7 @@
  "engine": "InnoDB",
  "field_order": [
   "design_name",
+  "type",
   "customer",
   "design_image",
   "number_of_colours",
@@ -48,12 +49,18 @@
    "fieldname": "notes",
    "fieldtype": "Small Text",
    "label": "Notes"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Select",
+   "label": "Type",
+   "options": "\nFlatbed\nRotary\nDigital"
   }
  ],
  "image_field": "design_image",
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-14 21:40:44.653782",
+ "modified": "2021-03-16 18:48:20.481281",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Design",

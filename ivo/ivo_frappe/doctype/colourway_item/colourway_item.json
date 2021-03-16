@@ -1,0 +1,38 @@
+{
+ "actions": [],
+ "creation": "2021-03-16 21:21:05.391904",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "screen_number",
+  "colour_recipe"
+ ],
+ "fields": [
+  {
+   "fieldname": "screen_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Screen number"
+  },
+  {
+   "fieldname": "colour_recipe",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Colour recipe",
+   "options": "Colour recipe"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2021-03-16 21:22:24.820291",
+ "modified_by": "Administrator",
+ "module": "Ivo Frappe",
+ "name": "Colourway item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
