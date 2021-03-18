@@ -17,7 +17,7 @@
   "date_ordered",
   "date_expected",
   "date_printed",
-  "date_invoices"
+  "date_invoiced"
  ],
  "fields": [
   {
@@ -85,14 +85,14 @@
    "label": "Date printed"
   },
   {
-   "fieldname": "date_invoices",
+   "fieldname": "date_invoiced",
    "fieldtype": "Datetime",
-   "label": "Date invoices"
+   "label": "Date invoiced"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2021-03-16 22:52:51.193130",
+ "modified": "2021-03-17 10:25:31.076790",
  "modified_by": "Administrator",
  "module": "Ivo Frappe",
  "name": "Job",
